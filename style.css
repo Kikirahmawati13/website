@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    width: 100%;
+    height: 100vh ;
+    background: linear-gradient(rgba(156, 76, 76, 0),rgba(0,0,0,0)),url(jadi2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+.logo{
+    color: #b37373;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: #814b4b;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a:hover{
+    color: #20b2aa ;
+    transition:4s;
+}
+.btn{
+    background:  #8f7272;
+    color: #fafafa;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 38px;
+    transition: transform ,4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: #fff;
+    font-size: 75px;
+    margin: 10px 0px 10 px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #faf2f2;
+    letter-spacing: 100%;
+    font-size: 20px;
+}
+.news form {
+    width:380px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #b37373;
+    outline: none;
+    border-radius: 30px;
+    
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 30px;
+    background-color:#ee8b8b ;
+    box-shadow: 0px 0px 5px rgb(243, 53, 148), 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width:100%;
+    padding:100px 0px;
+     background: linear-gradient(rgba(28, 29, 29, 0), rgb(82, 86, 99));
+
+}
+.about img { 
+    height: auto;
+    width: 300px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #dd8282;
+    letter-spacing: 2px;
+    font-size: 75px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+}
+.project{
+    width:100%;
+    padding:100px 0px;
+     background: linear-gradient(rgb(82, 86, 99),rgb(82, 86, 99));
+}
+.project h2 {
+    color: #f56868;
+    font-size: 55px;
+    width: 1430px;
+    text-align: center;
+    margin: auto;
+}
+.project_-text p{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+}
+button{
+    background-color: #b37373;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:  13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button.hover{
+    background-color: transparent;
+    border: 2px solid #b37373;
+    cursor: pointer;
+}
+
+.title{
+    background-color:   rgb(82, 86, 99);
+}
+
+.title h2 {
+    color: #f56868;
+    font-size: 55px;
+    width: 1430px;
+    text-align: center;
+    margin: auto;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    background: linear-gradient( rgb(82, 86, 99),rgba(28, 29, 29, 0));
+}
+.card {
+    height: 160px;
+    width: 235px;
+    padding: 20px 35px;
+    background: #f3bdbd;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+
+h5 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p {
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.pra a {
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color:rgb(82, 86, 99) ;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius:  30px;
+}
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #7e4343;
+    cursor: pointer;
+} 
